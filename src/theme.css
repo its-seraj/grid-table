@@ -1,0 +1,61 @@
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Roboto:ital@1&display=swap');
+
+/* :root {
+  --background: white;
+  --foreground: black;
+  --border: #222;
+  --font-size1-primary: "14px";
+  --neutral-colors-black: #1D1C2B;
+} */
+
+* {
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: DM Sans;
+  font-style: normal;
+}
+
+.light-mode {
+  --font-color: #101212;
+  --body-bg-color: #ffffff;
+  --neutral-colors-black: #1D1C2B;
+  --neutral-colors-300: #FBFBFB;
+  --neutral-colors-400: #9291A5;
+  --neutral-colors-500: #F0F0F2;
+  --neutral-colors-white: #FFFFFF;
+  --primary-colors-purple: #4A3AFF;
+  --box-shadow: #d9d9d9a3;
+  --custom-colors-green-100: #F0FFF8;
+  --custom-colors-green-600: #00974F;
+  --neutral-colors-text-gray: #615E83;
+  --custom-colors-magenta-100: #F4F2FF;
+  --custom-colors-magenta-600: #5A21DB;
+  --custom-colors-blue-100: #F0F7FF;
+  --custom-colors-blue-600: #004FCF;
+  --custom-colors-red-100: #FFF9F9;
+  --custom-colors-red-600: #D91A1A;
+  --custom-colors-yellow-100: #FFFEF6;
+  --custom-colors-yellow-600: #D47F00;
+}
+
+.dark-mode {
+  --font-color: #cccccc;
+  --body-bg-color: #121212;
+  --neutral-colors-black: #e2e3d4;
+  --neutral-colors-300: #040404;
+  --neutral-colors-400: #6d6e5a;
+  --neutral-colors-500: #0f0f0d;
+  --neutral-colors-white: #000000;
+  --primary-colors-purple: #b5c500;
+  --box-shadow: #262626a3;
+  --custom-colors-green-100: #0f0007;
+  --custom-colors-green-600: #ff68b0;
+  --neutral-colors-text-gray: #9ea17c;
+  --custom-colors-magenta-100: #0b0d00;
+  --custom-colors-magenta-600: #a5de24;
+  --custom-colors-blue-100: #0f0800;
+  --custom-colors-blue-600: #ffb030;
+  --custom-colors-red-100: #000606;
+  --custom-colors-red-600: #26e5e5;
+  --custom-colors-yellow-100: #000109;
+  --custom-colors-yellow-600: #2b80ff;
+}

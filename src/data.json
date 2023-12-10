@@ -1,0 +1,142 @@
+[
+  {
+    "name": "John Doe",
+    "email": "john.doe@email.com",
+    "date": "January 9, 2022",
+    "status": "Active",
+    "teams": ["Design", "Software Engineer"]
+  },
+  {
+    "name": "Jane Smith",
+    "email": "jane.smith@email.com",
+    "date": "February 15, 2022",
+    "status": "Offline",
+    "teams": ["Product", "Operations"]
+  },
+  {
+    "name": "Alex Johnson",
+    "email": "alex.johnson@email.com",
+    "date": "March 5, 2022",
+    "status": "Active",
+    "teams": ["Software Engineer", "Income"]
+  },
+  {
+    "name": "Emily Davis",
+    "email": "emily.davis@email.com",
+    "date": "April 20, 2022",
+    "status": "Active",
+    "teams": ["Academic", "Customer Success"]
+  },
+  {
+    "name": "Robert White",
+    "email": "robert.white@email.com",
+    "date": "May 12, 2022",
+    "status": "Offline",
+    "teams": ["Design", "Product"]
+  },
+  {
+    "name": "Sarah Brown",
+    "email": "sarah.brown@email.com",
+    "date": "June 8, 2022",
+    "status": "Active",
+    "teams": ["Software Engineer", "Operations"]
+  },
+  {
+    "name": "Michael Lee",
+    "email": "michael.lee@email.com",
+    "date": "July 1, 2022",
+    "status": "Offline",
+    "teams": ["Income", "Academic"]
+  },
+  {
+    "name": "Olivia Taylor",
+    "email": "olivia.taylor@email.com",
+    "date": "August 17, 2022",
+    "status": "Active",
+    "teams": ["Customer Success", "Design"]
+  },
+  {
+    "name": "James Miller",
+    "email": "james.miller@email.com",
+    "date": "September 3, 2022",
+    "status": "Active",
+    "teams": ["Product", "Software Engineer"]
+  },
+  {
+    "name": "Emma Wilson",
+    "email": "emma.wilson@email.com",
+    "date": "October 22, 2022",
+    "status": "Offline",
+    "teams": ["Operations", "Income"]
+  },
+  {
+    "name": "Liam Johnson",
+    "email": "liam.johnson@email.com",
+    "date": "November 5, 2022",
+    "status": "Active",
+    "teams": ["Product", "Software Engineer"]
+  },
+  {
+    "name": "Ava Martinez",
+    "email": "ava.martinez@email.com",
+    "date": "December 12, 2022",
+    "status": "Offline",
+    "teams": ["Design", "Operations"]
+  },
+  {
+    "name": "Ethan Brown",
+    "email": "ethan.brown@email.com",
+    "date": "January 8, 2023",
+    "status": "Active",
+    "teams": ["Customer Success", "Income"]
+  },
+  {
+    "name": "Sophia Wilson",
+    "email": "sophia.wilson@email.com",
+    "date": "February 14, 2023",
+    "status": "Active",
+    "teams": ["Academic", "Software Engineer"]
+  },
+  {
+    "name": "Jackson Lee",
+    "email": "jackson.lee@email.com",
+    "date": "March 20, 2023",
+    "status": "Offline",
+    "teams": ["Design", "Product"]
+  },
+  {
+    "name": "Mia Rodriguez",
+    "email": "mia.rodriguez@email.com",
+    "date": "April 25, 2023",
+    "status": "Active",
+    "teams": ["Operations", "Customer Success"]
+  },
+  {
+    "name": "Noah Taylor",
+    "email": "noah.taylor@email.com",
+    "date": "May 8, 2023",
+    "status": "Active",
+    "teams": ["Software Engineer", "Income"]
+  },
+  {
+    "name": "Isabella Scott",
+    "email": "isabella.scott@email.com",
+    "date": "June 13, 2023",
+    "status": "Offline",
+    "teams": ["Academic", "Product"]
+  },
+  {
+    "name": "Lucas Clark",
+    "email": "lucas.clark@email.com",
+    "date": "July 19, 2023",
+    "status": "Offline",
+    "teams": ["Design", "Operations"]
+  },
+  {
+    "name": "Aria Thomas",
+    "email": "aria.thomas@email.com",
+    "date": "August 22, 2023",
+    "status": "Active",
+    "teams": ["Customer Success", "Software Engineer"]
+  }
+]

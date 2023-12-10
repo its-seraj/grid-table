@@ -1,0 +1,138 @@
+.basic-container {
+  padding: 2em;
+  background-color: var(--body-bg-color);
+}
+
+/* --------------- header ------------------ */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header-container .header1 {
+  color: var(--neutral-colors-black, #1D1C2B);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.header-container .description {
+  color: var(--neutral-colors-400, #9291A5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.header-right-container {
+  display: flex;
+  gap: 1em;
+}
+
+.header-right-container>div {
+  padding: 12px 16px;
+  border-radius: 8px;
+}
+
+.header-right-container .reset {
+  border: 1px solid var(--neutral-colors-400, #9291A5);
+  background: var(--neutral-colors-white, #FFF);
+}
+
+.header-right-container .export {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  color: var(--neutral-colors-white, #FFF);
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  border-radius: 8px;
+  background: var(--primary-colors-purple, #4A3AFF);
+}
+
+/* ---------------- body ---------------- */
+
+.body-container {
+  margin-top: 2em;
+  width: 100%;
+  height: 689.433px;
+  flex-shrink: 0;
+}
+
+.table-conntainer {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 20px;
+  box-shadow: 0 0 8px 0 var(--box-shadow, #d9d9d9a3);
+  overflow: hidden;
+}
+
+.table-conntainer .table {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.table .table-head {
+  width: 100%;
+  display: flex;
+  border-bottom: 1.5px solid var(--neutral-colors-500, #F0F0F2);
+}
+
+.table .table-head>div {
+  display: flex;
+  flex: 1;
+  padding: 16px 16px 16px 24px;
+  align-items: baseline;
+  gap: 8px;
+  align-self: stretch;
+  color: var(--neutral-colors-400, #9291A5);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.table-body {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.table-body .table-row {
+  width: 100%;
+  display: flex;
+}
+
+.table-row>div {
+  flex: 1;
+  display: flex;
+  padding: 10px 24px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  align-self: stretch;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  /* resize: horizontal; */
+  /* overflow: auto; */
+}
+
+.table-row:nth-of-type(even) {
+  background: var(--neutral-colors-300, #FBFBFB);
+}
+
+.table-row .email {
+  color: var(--primary-colors-purple, #4A3AFF);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  text-decoration-line: underline;
+}
